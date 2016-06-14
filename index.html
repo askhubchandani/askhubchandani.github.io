@@ -1,29 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <head>
-<head>
-  <title>Adarsh Khubchandani</title>
+  <link href="/normalize.css" rel="stylesheet">
   <style>
-    body {
+    button{
+    color: #111;
+    }
+    header {
       text-align: center;
-      background: url("http://dash.ga.co/assets/anna-bg.png");
+      background: url('http://dash.ga.co/assets/jeff-bg.png');
       background-size: cover;
-      background-position: center;
       color: white;
-      font-family: helvetica;
     }
-    p{
-    font-size:22px;
-
+    a {
+      color: white;
     }
- </style>
+    h1 {
+      font-size: 50px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
 </head>
 <body>
-<div>
- <p> Adarsh Khubchandani<p>
-</div>
-
- <div>
- <p> I am a Computer Engineering student at VESIT, University Of Mumbai. </p>
-</div>
-
+  <header>
+    <img src="/assets/jeff.png">
+    <h1>Adarsh's Blog</h1>
+    <ul>
+      <li><button id ="button2">About</button></li>
+      <li><button id="button3">Articles</button></li>
+      
+    </ul>
+  </header>
+  <article>
+    <h2>Write code everyday.</h2>
+    <p>Learning to code is diffcult. It is a frustating experience to learn and a lot of    people fail to learn. The most easiest way is to practice everyday and build            something in-order to improve.
+    For more reference, visit: 
+    https://medium.com/@davidbyttow/abc-always-be-coding-d5f8051afce2 </p>
+    <button id ="button1">Like</button>
+  </article>
+  <article>
+    <h2>GitHub for beginers.</h2>
+    <p>GitHub is one of the most awsome website to contribute to open source projects. You can read code edit it and can contribute a lot to the open source community.
+    For more information, visit:
+    "https://github.com/aredridel/how-to-read-code/blob/master/how-to-read-code.md"></p>
+    <button id ="button4">Like</button>
+  </article>
+  <script>
+    $("#button1").on("click", function() {
+      alert("Thanks!!");
+    });
+    $("#button4").on("click", function() {
+      alert("Thanks!!");
+    });
+    $("#button2").on("click", function() {
+      alert("I am Adarsh, a computer engineering student.");
+    });    
+    $("#button3").click(function () {
+      $('html,body').animate({
+      scrollTop: $(document).height()/3,
+  }, 1000);
+});
+  </script>
 </body>
