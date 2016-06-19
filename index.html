@@ -1,95 +1,148 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <link href="/normalize.css" rel="stylesheet">
-  <style>
-    button{
-    color: #111;
-    }
-    header {
-      text-align: center;
-      background: url('http://dash.ga.co/assets/jeff-bg.png');
-      background-size: cover;
-      color: white;
-    }
-    a {
-      color: white;
-    }
-    h1 {
-      font-size: 50px;
-    }
-    
-    ul {
-      padding: 10px;
-      background: rgba(0,0,0,0.5);
-    }
-    li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
-    article {
-      max-width: 500px;
-      padding: 20px;
-      margin: 0 auto;
-    }
-    @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
-      }
-      li {
-        padding: 5px;
-        display: block;
-      }
-    }
-  </style>
+    <meta charset="utf-8">
+    <title>Adarsh Khubchandani - Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adarsh Khubchandani">
+    <meta name="description" content="Something about myself">
+    <meta name="keywords" content="Adarsh, Khubchandani, Developer, Backend Developer">
+    <!-- Styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/fontello.css" rel="stylesheet">
+    <!-- Google Web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
 </head>
+
 <body>
-  <header>
-     <h1>Adarsh's Blog</h1>
-    <ul>
-      <li><button id ="button2">About</button></li>
-      <li><button id="button3">Articles</button></li>
-      
-    </ul>
-  </header>
-  <article>
-    <h2>Write code everyday.</h2>
-    <p>Learning to code is diffcult. It is a frustating experience to learn and a lot of    people fail to learn. The most easiest way is to practice everyday and build            something in-order to improve.
-    For more reference, visit: 
-    https://medium.com/@davidbyttow/abc-always-be-coding-d5f8051afce2 </p>
-    <button id ="button1">Like</button>
-  </article>
-  <article>
-    <h2>GitHub for beginers.</h2>
-    <p>GitHub is one of the most awsome website to contribute to open source projects. You can read code edit it and can contribute a lot to the open source community.
-    For more information, visit:
-    "https://github.com/aredridel/how-to-read-code/blob/master/how-to-read-code.md"></p>
-    <button id ="button4">Like</button>
-  </article>
-  <script>
-    $("#button1").on("click", function() {
-      alert("Thanks!!");
-    });
-    $("#button4").on("click", function() {
-      alert("Thanks!!");
-    });
-    $("#button2").on("click", function() {
-      alert("I am Adarsh, a computer engineering student.");
-    });    
-    $("#button3").click(function () {
-      $('html,body').animate({
-      scrollTop: $(document).height()/3,
-  }, 1000);
-});
-  </script>
-
-
- <div>
- <h2> My Projects. </h2>
- <p> Wikipedia search. </p>
- <p> Pomodoro Clock.</p>
- <p> Madlibs Game. </p>
- </div>
-
-
+    <div class="headwrap">
+        <header class="clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="img/sahildua.jpg" class="img-circle text-center picture" alt="Adarsh Khubchandani">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 class="text-center">
+                            <span>Adarsh Khubchandani</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="text-center">Knock off the T of can't!</h2>
+                    </div>
+                </div>
+                <!-- row end -->
+            </div>
+            <!-- container end -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="icon">
+                            <li>
+                                <a href="https://duckduckhack.com/u/sahildua2305/" target="_blank"><img src="img/icons/duckduckgo.png" alt="DuckDuckGo profile link"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/sahildua2305" target="_blank"><img src="img/icons/linkedin.png" alt="LinkedIN profile link"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.github.com/sahildua2305" target="_blank"><img src="img/icons/github.png" alt="GitHub profile link"></a>
+                            </li>
+                            <li>
+                                <a href="http://scr.im/sahildua" target="_blank"><img src="img/icons/mail.png" alt="Mail"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--- col end -->
+                </div>
+                <!-- row end -->
+            </div>
+            <!-- container end -->
+        </header>
+    </div>
+    <div class="scrollback" id="about">
+        <section class="feature">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <article>
+                            <p>I have recently graduated from Netaji Subhas Institute of Technology, New Delhi.</p>
+                            <p>I am a Community Member at DuckDuckHack (Open source community of DuckDuckGo).</p>
+                        </article>
+                    </div>
+                </div>
+                <!-- row end -->
+            </div>
+            <!-- container end -->
+        </section>
+    </div>
+    <section class="portfolio single-page scrollback">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="align"><i class="icon-desktop-circled"></i></div>
+                    <h1 id="folio-headline">My Projects</h1>
+                </div>
+            </div>
+            <!-- row end -->
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="mask2">
+                        <a href="https://hackide.herokuapp.com" target="_blank"><img src="img/hackide-screenshot.jpg" alt="HackIDE Screenshot"></a>
+                    </div>
+                    <div class="inside">
+                        <h2>HackIDE</h2>
+                        <div class="entry-content">
+                            <p>hackIDE is an online code editor, compiler and interpreter based on Django, powered by <b>HackerEarth API</b>! Go, hack it!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- col end -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="mask2">
+                        <a href="http://askhubchandani.github.io/Wikipedia-search-engine" target="_blank"><img src="img/local-tweet-map.png" alt="Local Tweet Map Screenshot"></a>
+                    </div>
+                    <div class="inside">
+                        <h2>Local Tweet Map</h2>
+                        <div class="entry-content">
+                            <p>A web app developed as a part of a development challenge.</b> It helps you to search a wikipedia article.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- col end -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="mask2">
+                        <a href="http://askhubchandani.github.io/Pomodoro-timer" target="_blank"><img src="img/twitter-instant.jpg" alt="Twitter Instant Screenshot"></a>
+                    </div>
+                    <div class="inside">
+                        <h2>Twitter Instant</h2>
+                        <div class="entry-content">
+                            <p>A Pomodoro Timer to record your timings!</b></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- col end -->
+            </div>
+            <!-- row end -->
+        </div>
+        <!-- container end -->
+    </section>
+    <footer class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <span>Copyrights © <a>Sahil Dua</a> 2016 | Made with <span id="heart">&hearts;</span> in India </span>
+            </div>
+        </div>
+    </footer>
 </body>
+
+</html>
