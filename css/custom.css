@@ -1,0 +1,202 @@
+body {
+    background: #fff;
+    color: #312A1E;
+    font-size: 100%;
+}
+
+ul,
+ol {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0 0 1.5em 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-family: "Patua One", cursive;
+}
+
+
+/* Headwrap */
+
+.headwrap {
+    background: url(../img/bg.jpg) #0b333f no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 600px;
+    z-index: 10000;
+    padding-top: 18%;
+    text-align: center;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+}
+
+.headwrap h1 {
+    color: #FFFFFF;
+    font-family: "Patua One", cursive;
+    font-size: 6em;
+    font-weight: 100;
+    margin: 0 0;
+}
+
+.headwrap h2 {
+    color: #FFFFFF;
+    font-family: "Open Sans", sans serif;
+    font-size: 2em;
+    font-weight: normal;
+    margin: 0.5em 0;
+    text-shadow: 1px 1px 1px #333333;
+}
+
+.headwrap h1 span {
+    color: #f0bf00;
+}
+
+.picture {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    margin-top: -60px;
+    border: 3px solid #fff;
+}
+
+
+/* Social icons */
+
+.icon img {
+    width: 52px;
+    height: 52px;
+}
+
+.icon {
+    font-size: 54px;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.icon li {
+    display: inline-block;
+    opacity: 1.0;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.icon li:hover {
+    opacity: 0.5;
+}
+
+.feature {
+    background: url(../img/yellow.png) repeat 0 0;
+    height: auto;
+    z-index: 500;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+}
+
+.feature article {
+    text-align: center;
+    margin: 8% auto;
+    max-width: 870px;
+}
+
+.feature article p {
+    font-family: "Patua One", cursive;
+    font-size: 2.2em;
+    margin-bottom: 4%;
+    line-height: 1.35;
+    color: #fff;
+}
+
+
+/* About */
+
+.portfolio {
+    padding-bottom: 0;
+}
+
+.portfolio h1 {
+    font-size: 36px;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+
+.portfolio h2 {
+    margin-top: 1em;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+.portfolio h3 {
+    margin-top: .35em;
+    text-align: center;
+    font-family: "Patua One", cursive;
+    color: #aaa;
+}
+
+.portfolio .entry-content {
+    margin: 1em 0 2.5em;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+.portfolio .align {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 6em;
+}
+
+.portfolio #folio-headline {
+    text-align: center;
+}
+
+
+/* Portfolio Image Hover */
+
+.mask2 img {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    border-radius: 5%;
+    border: 3px solid #000;
+    max-width: 80%;
+    display: block;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.mask2 img:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
+    filter: alpha(opacity=99);
+    opacity: 1;
+}
+
+#heart {
+    color: #f7403a;
+}
+
+footer {
+    margin-top: 2%;
+    padding: 1%;
+    border-top: 1px solid #aaa;
+    text-align: center;
+}
