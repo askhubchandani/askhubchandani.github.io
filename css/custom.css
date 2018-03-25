@@ -75,11 +75,13 @@ h6 {
 .icon img {
     width: 52px;
     height: 52px;
+    color: #000000;
 }
 
 .icon {
     font-size: 54px;
     margin: 0.5em 0 0.5em 0;
+    color:#000000
 }
 
 .icon li {
