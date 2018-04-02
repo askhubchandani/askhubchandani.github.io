@@ -45,7 +45,7 @@ h6 {
     font-family: "Patua One", cursive;
     font-size: 6em;
     font-weight: 100;
-    margin: 0.5em 0.5em 0.5em 0.5em;
+    margin: 0 0;
 }
 
 .headwrap h2 {
@@ -53,12 +53,9 @@ h6 {
     font-family: "Open Sans", sans serif;
     font-size: 2em;
     font-weight: normal;
-    margin: 0.5em 0.5em 0.5em 0.5em;
-    text-shadow: 1px 1px 1px #333333;
 }
 
 .headwrap h1 span {
-    margin: 0.5em 0.5em 0.5em 0.5em;
     color: #000000;
 }
 
@@ -66,7 +63,7 @@ h6 {
     height: 150px;
     width:  150px;
     border-radius: 100%;
-    margin-top: 25px;
+    margin-top: -60px;
     border: 3px solid #000000;
 }
 
@@ -76,14 +73,14 @@ h6 {
 .icon img {
     width: 40px;
     height: 40px;
-    color: #000000;
-    margin: 0.5em 0.5em 0.5em 0.5em;
+    color: #333333;
+    
 }
 
 .icon {
     font-size: 40px;
     margin: 0.5em 0.5em 0.5em 0.5em;
-    color:#000000
+    color:#333333
 }
 
 .icon li {
@@ -100,7 +97,7 @@ h6 {
 }
 
 .feature {
-    background: url(../img/yellow.png) repeat 0 0;
+    background: #fff no-repeat 0 0;
     height: auto;
     z-index: 500;
     box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
@@ -201,6 +198,6 @@ h6 {
 footer {
     margin-top: 2%;
     padding: 1%;
-    border-top: 1px solid #aaa;
+    border-top: 1px solid #000000;
     text-align: center;
 }
