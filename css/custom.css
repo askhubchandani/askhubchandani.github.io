@@ -26,8 +26,7 @@ h6 {
 /* Headwrap */
 
 .headwrap {
-    background: url(../img/bg.jpg) no-repeat center center fixed;
-    opacity: 0.4;
+    background: linear-gradient(45deg, #2ecc71, #3498db);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -42,7 +41,7 @@ h6 {
 }
 
 .headwrap h1 {
-    color: #3ecc97;
+    color: #000000;
     opacity:1;
     font-family: "Patua One", cursive;
     font-size: 6em;
@@ -51,7 +50,7 @@ h6 {
 }
 
 .headwrap h2 {
-    color: #3ecc97;
+    color: #000000;
     opacity:1;
     font-family: "Open Sans", sans serif;
     font-size: 2em;
@@ -59,7 +58,7 @@ h6 {
 }
 
 .headwrap h1 span {
-    color: #3ecc97;
+    color: #000000;
 }
 
 .picture {
